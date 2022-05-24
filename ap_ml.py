@@ -6,6 +6,7 @@ import joblib
 
 def run_ml() :
     st.subheader('자동차 구매 가능 금액 예측')
+    st.text('코드가 수정되었니다.')
 
     # print(sklearn.__version__) sklearn 버젼 확인
 
