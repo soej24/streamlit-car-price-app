@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 
 def run_eda() :
     st.subheader('데이터 분석')
+    st.text('기본 데이터 분석입니다')
 
     car_df = pd.read_csv('data/Car_Purchasing_Data.csv', encoding='ISO-8859-1')
 
